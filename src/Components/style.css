@@ -1,0 +1,127 @@
+.searchFilter {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  
+  .container {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .searchBar {
+    width: 500px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .searchBar {
+      width: 300px;
+      align-items: center;
+      padding-right: 10px;
+    }
+    .filter {
+      width: 100%;
+    }
+  }
+  
+  .modalImage {
+    height: 150px;
+    width: 150px;
+  }
+  
+  .cardImage {
+    height: 150px;
+    width: 150px;
+  }
+  
+  .filter {
+    width: 170px;
+    cursor: pointer;
+  }
+  
+  .flexbox {
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+  }
+  
+  .id {
+    text-align: end;
+    position: absolute;
+    right: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    top: 1px;
+    z-index: 1;
+    color: #fff6f61c;
+  }
+  
+  .types {
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 7px;
+    color: white;
+    border-radius: 20px;
+    width: 60px;
+    text-align: center;
+    background: #fff6f61c;
+    padding-bottom: 9px;
+    margin-top: 10px;
+  }
+  
+  .statImage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .stats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .stateText {
+    text-align: right;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .stats {
+      justify-content: center;
+    }
+    .stateText {
+      text-align: left;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .cardImage {
+      height: 90px;
+      width: 90px;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .statImage {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+  }
+  
